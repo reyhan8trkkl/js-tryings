@@ -1,22 +1,18 @@
-let myAge = prompt("yasinizi girin");
-let earlyYears = 2;
-earlyYears = earlyYears *=10.5 ;
 
-let laterYears = myAge - 2;
-laterYears = laterYears * 4;
+const calculateCharacter = () => {
 
-console.log(laterYears);
-console.log(earlyYears);
+  let isim= prompt("isim girin");
+  let tweet = prompt("Burasi tweettir");
+  let tweetCount = tweet.length;
+  let tweetLeft =150-tweetCount;
 
-let myAgeInDogYears = earlyYears + laterYears;
+  alert(`${tweetCount} karakter yazdiniz, ${tweetLeft} karakteriniz kaldi...`)
+  console.log(`${tweetCount} karakter yazdiniz, ${tweetLeft} karakteriniz kaldi...`)
 
-let myName = "Reyhan";
-console.log(myName.toLowerCase());
 
-console.log(`My namme is ${myName} .I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
+}
 
-let kopekyasi= 129;
-let ilk2yil= 10.5*2;
-let yas = kopekyasi-ilk2yil;
-let sonyas= yas/4+2;
-console.log(sonyas);
+
+// Invoke the function when button is clicked
+
+btn.addEventListener('click', calculateCharacter);
