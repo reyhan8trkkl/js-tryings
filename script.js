@@ -1,18 +1,10 @@
 
-const calculateCharacter = () => {
+const Kelvin=0;
+const celsius= Kelvin-273;
+let fahrenheit=celsius*(9/5)+32;
 
-  let isim= prompt("isim girin");
-  let tweet = prompt("Burasi tweettir");
-  let tweetCount = tweet.length;
-  let tweetLeft =150-tweetCount;
+fahrenheit = Math.round(fahrenheit);
 
-  alert(`${tweetCount} karakter yazdiniz, ${tweetLeft} karakteriniz kaldi...`)
-  console.log(`${tweetCount} karakter yazdiniz, ${tweetLeft} karakteriniz kaldi...`)
-
-
-}
-
-
-// Invoke the function when button is clicked
-
-btn.addEventListener('click', calculateCharacter);
+console.log(`
+ Sicaklik ${fahrenheit}
+`);
