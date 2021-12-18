@@ -1,22 +1,25 @@
-let myAge = prompt("yasinizi girin");
-let earlyYears = 2;
-earlyYears = earlyYears *=10.5 ;
+let markHeight = 1.70;
+let markWeight = 88;
+let johnHeight = 1.90;
+let johnWeight = 69;
 
-let laterYears = myAge - 2;
-laterYears = laterYears * 4;
+function calculateBMI(mass, height) {
 
-console.log(laterYears);
-console.log(earlyYears);
+    let bmi = Math.floor(mass / (height * height));
+    switch (true) {
+        case bmi < 18.5:
+            return "zayiftir";
+        case bmi < 24.9:
+            return "normal kiloda";
+        case bmi < 29.9:
+            return "kilolu";
+        case bmi >= 30:
+            return "obez";
+        default:
+            break;
+    }
+}
 
-let myAgeInDogYears = earlyYears + laterYears;
-
-let myName = "Reyhan";
-console.log(myName.toLowerCase());
-
-console.log(`My namme is ${myName} .I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
-
-let kopekyasi= 129;
-let ilk2yil= 10.5*2;
-let yas = kopekyasi-ilk2yil;
-let sonyas= yas/4+2;
-console.log(sonyas);
+markBMI = calculateBMI(markWeight, markHeight);
+johnBMI = calculateBMI(johnWeight, johnHeight);
+console.log(`${markBMI} Mark'in BMI'si ${johnBMI}' Johnun BMI'si`);
