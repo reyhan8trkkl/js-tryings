@@ -1,5 +1,5 @@
 const url ='https://api.openweathermap.org/data/2.5/'
-const key = "f9bb439d319a4103c1b36b8371d7bc13"
+const key = ".............."
 
 const searchBar = document.getElementById('searchBar')
 
