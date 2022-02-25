@@ -1,0 +1,3 @@
+[1020/114501.305:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\TM\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\ad90539d-0dff-47af-a981-31b8cfa8424f: Sistem belirtilen yolu bulamýyor. (0x3)
+[1020/115414.352:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
+[1023/032158.918:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
